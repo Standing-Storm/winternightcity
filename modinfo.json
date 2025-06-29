@@ -1,0 +1,77 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "winternightcity",
+    "name": "<color_blue>Eternal Winter</color>, <color_dark_gray>Eternal Night</color>, <color_magenta>Megacity</color> Settings",
+    "authors": [ "Standing-Storm" ],
+    "description": "Sets Eternal Winter, Eternal Night, and start in a megacity",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "scenario",
+    "id": "missed_megacity",
+    "name": "Winter Night City",
+    "points": 0,
+    "description": "The snows never end, it's night, you're in the middle of a giant city full of flesh-eating monsters, and you're wearing sunglasses.  Hit it..",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_house_boarded",
+      "sloc_grocery_store",
+      "sloc_garage",
+      "sloc_furniture_store",
+      "sloc_library",
+      "sloc_bookstore",
+      "sloc_zoo_cafeteria",
+      "sloc_golfcourse_mid_course",
+      "sloc_golfcourse_clubhouse",
+      "sloc_church",
+      "sloc_cemetery",
+      "sloc_hardware",
+      "sloc_gym",
+      "sloc_clothes",
+      "sloc_restaurant",
+      "sloc_bar",
+      "sloc_electronics",
+      "sloc_arcade",
+      "sloc_animalshelter",
+      "sloc_laundromat",
+      "sloc_stripclub",
+      "sloc_sexshop",
+      "sloc_candyshop",
+      "sloc_petstore"
+    ],
+    "start_name": "In Town",
+    "start_of_cataclysm": { "hour": 0, "day": 1, "season": "winter", "year": 1 },
+    "start_of_game": { "hour": 8, "day": 5, "season": "winter", "year": 1 },
+    "flags": [ "CITY_START", "LONE_START" ]
+  },
+  {
+      "type": "EXTERNAL_OPTION",
+      "name": "CITY_SIZE",
+      "stype": "int",
+      "value": 16
+  },
+  { 
+      "type": "EXTERNAL_OPTION",
+      "name": "CITY_SPACING",
+      "stype": "int",
+      "value": 0
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "ETERNAL_SEASON",
+    "//": "If true, keep the initial season for ever.",
+    "stub": true,
+    "stype": "bool",
+    "value": true
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "ETERNAL_TIME_OF_DAY",
+    "//": "Day/night cycle settings.  'normal' sets a normal cycle.  'day' sets eternal day.  'night' sets eternal night.",
+    "stub": true,
+    "stype": "string_input",
+    "value": "night"
+  }
+]
