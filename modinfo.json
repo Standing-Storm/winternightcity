@@ -42,8 +42,8 @@
       "sloc_petstore"
     ],
     "start_name": "In Town",
-    "start_of_cataclysm": { "hour": 0, "day": 1, "season": "winter", "year": 1 },
-    "start_of_game": { "hour": 8, "day": 5, "season": "winter", "year": 1 },
+    "start_of_cataclysm": { "hour": 0, "day": 1, "season": "winter", "year": 1 },
+    "start_of_game": { "hour": 8, "day": 5, "season": "winter", "year": 1 },
     "flags": [ "CITY_START", "LONE_START" ]
   },
   {
